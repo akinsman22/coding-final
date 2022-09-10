@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link href="https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap" rel="stylesheet">
+        <title>CS L10 Final</title>
+    </head>
+    <header>Create Your Own Pizza</header>
+    <body>
+        <div class="createOrder">
+            <h3>Available Crusts</h3>
+            <p>Original</p>
+            <p>Thin Crust</p>
+            
+            <h3>Available Sauces</h3>
+            <p>Classic Tomato</p>
+            <p>Spicy Marinara</p>
+            <p>White Garlic Sauce</p>
+        
+            <h3>Available Toppings</h3>
+            <p>Chicken</p>
+            <p>Pepperoni</p>
+            <p>Cheese</p>
+            <p>Mushrooms</p>
+            <p>Baby Spinach</p>
+            <p>Olives</p>
+        </div>
+
+        <form>
+            <label for="crust">Choose Your Crust:</label>
+            <input type="text" name="crust" id="aCrust">
+            <br>
+            <label for="sauce">Choose Your Sauce:</label>
+            <input type="text" name="pizzasauce" id="aSauce">
+            <br>
+            <label for="toppingone">Topping 1:</label>
+            <input type="text" name="toppingone" id="one">
+            <label for="toppingtwo">Topping 2:</label>
+            <input type="text" name="toppingtwo"id="two">
+            <label for="toppingthree">Topping 3:</label>
+            <input type="text" name="toppingthree"id="three">
+            <br>
+            <button type="submit" id="btn">Create Order</button>
+            </form>
+
+        <div id="order">
+            <p>Competed Pizza Order:</p>
+            <div id="pizzaOrder"></div>
+            <div id="toppings"></div>
+            <p>Sales Total:</p>
+            <div id="total">$</div>
+        </div>
+       
+        <script src="script.js"></script>
+    </body>
+</html>
